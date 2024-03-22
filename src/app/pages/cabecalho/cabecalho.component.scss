@@ -1,0 +1,21 @@
+.grid-container{
+  display: grid;
+  grid-template-columns: 90% 10%;  
+  background-color: rgb(2, 11, 63);
+  color: #fff;
+  padding: 6px;
+  height: 60px; 
+}
+
+.carrinho{
+  background-color: transparent;
+  text-align: right;
+  vertical-align: middle;
+  display: table-cell; 
+}
+
+.titulo{
+  font-size: 56px;
+  padding: 6px;
+  margin-top: 10px;
+}

@@ -1,0 +1,29 @@
+.container-relatorio{
+  width: 97%;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-mdc-form-field {
+  font-size: 16px;
+}
+
+.colPq{
+  width: 10%;
+}
+
+.colMd{
+  width: 15%;
+}
+
+.colGr{
+  width: 30%;
+}
+
+::ng-deep .input-filtro .mat-mdc-text-filter-wrapper{
+  width: 200px!important;
+}

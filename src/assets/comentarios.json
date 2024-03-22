@@ -1,0 +1,58 @@
+{
+  "comentarios": [
+    {
+      "id": 1,
+      "nome": "Paulo",
+      "data": "2024-03-20",
+      "mensagem": "Muito bom!"
+    },
+    {
+      "id": 1,
+      "nome": "Pedro",
+      "data": "2024-02-28",
+      "mensagem": "Legal"
+    },
+    {
+      "id": 2,
+      "nome": "Maria",
+      "data": "2024-03-21",
+      "mensagem": "Gostei muito"
+    },
+    {
+      "id": 3,
+      "nome": "João Carlos",
+      "data": "2024-03-03",
+      "mensagem": "Péssimo produto"
+    },
+    {
+      "id": 4,
+      "nome": "Sabrina",
+      "data": "2024-03-22",
+      "mensagem": "Achei que seria melhor"
+    },
+    {
+      "id": 4,
+      "nome": "Telma",
+      "data": "2024-03-17",
+      "mensagem": "Pra mim serviu"
+    },
+    {
+      "id": 4,
+      "nome": "Adilson",
+      "data": "2024-02-15",
+      "mensagem": "Era o que estava procurando"
+    },
+    {
+      "id": 4,
+      "nome": "Sandra",
+      "data": "2024-01-31",
+      "mensagem": "Poderia vir melhor embalado mas o produto em si é muito bom"
+    },
+    {
+      "id": 4,
+      "nome": "Peter",
+      "data": "2023-12-27",
+      "mensagem": "Não gostei, vou procurar outro"
+    }
+  ]
+}

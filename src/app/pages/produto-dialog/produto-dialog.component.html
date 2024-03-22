@@ -1,0 +1,12 @@
+<mat-dialog-content class="mat-typography">
+<div class="container">
+    <div class="titulo">{{dadosProduto.title}}</div>
+    <div class="foto"><img height="200px" width="200px" src="{{dadosProduto.url}}"></div>
+    <div class="comenta">
+        <app-comentario></app-comentario>
+    </div>
+</div>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+    <button mat-raised-button color="warn" mat-dialog-close>Fechar</button>
+</mat-dialog-actions>

@@ -1,27 +1,20 @@
-# Teia
+# Desafio Teia
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.3.
+O projeto foi desenvolvido com [Angular CLI](https://github.com/angular/angular-cli) version 16.1.3.
 
-## Development server
+## Tela Inicial
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Mostra a lista de produtos vinda de uma API JSON com paginação e possibilidade de ordenar por coluna.
 
-## Code scaffolding
+## Coluna Adicionar
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+A coluna Adicionar na lista de produtos possui um ícone que permite `incluir` itens no carrinho ao ser clicado.    
 
-## Build
+## Carrinho
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Acessível através do ícone superior à direita, mostra a lista de produtos adicionados. A caixa de diálogo aberta permite também a exclusão de um item ou a limpeza completa do carrinho.  
 
-## Running unit tests
+## Lupa
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+A lupa ao lado do nome do produto permite acesso a uma caixa de diálogo com os dados do produto e eventuais `comentários` sobre o produto.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

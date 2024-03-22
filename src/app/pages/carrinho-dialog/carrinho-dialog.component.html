@@ -1,0 +1,36 @@
+<h2 mat-dialog-title>Carrinho</h2>
+<mat-dialog-content class="mat-typography">
+    <div class="container">
+        <div *ngIf="lista.length > 0;else mensagem">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th colspan="2">Produto</th>
+                        <th>Remover</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of lista">
+                  
+                        <td align="center">{{item.id}}</td>
+                        <td>{{item.titulo}}</td>
+                        <td><img width="40px" height="40px" src={{item.url}}></td>
+                        <td align="center" class="icone-exclusao">
+                            <mat-icon (click)="excluiItem(item.item)">
+                                <span class="material-symbols-outlined"> delete </span>
+                            </mat-icon>
+                            <span class="cdk-visually-hidden">Itens no carrinho</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <ng-template #mensagem>Carrinho vazio :-(</ng-template>
+    </div>
+    
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+    <button mat-raised-button color="warn" mat-dialog-close>Fechar</button>
+    <button mat-raised-button color="primary" (click)="limpaCarrinho()">Limpar</button>
+</mat-dialog-actions>
